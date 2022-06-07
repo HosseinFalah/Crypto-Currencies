@@ -21,8 +21,8 @@
 }
 
 .light {
-    --color-bg-primary: #ffffff;
-    --color-bg-secondary: #edf2f7;
+    --color-bg-primary: #f7f7f7;
+    --color-bg-secondary: #fdfdfd;
     --color-text-primary: #2d3748;
     --color-text-secondary: #4a5568;
     --color-text-accent: #2b9cd0;
