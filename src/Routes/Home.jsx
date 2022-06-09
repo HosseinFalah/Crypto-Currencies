@@ -2,10 +2,10 @@ import React from 'react'
 import CoinSearch from '../Components/CoinSearch'
 import Trending from '../Components/Trending'
 
-const Home = ({coins}) => {
+const Home = ({loading, coins}) => {
   return (
     <div>
-      <CoinSearch coins={coins}/>
+      <CoinSearch coins={coins} loading={loading}/>
       <Trending/>
     </div>
   )
