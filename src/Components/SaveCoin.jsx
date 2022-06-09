@@ -6,7 +6,7 @@ const SaveCoin = () => {
     return (
         <div>
             {coins.length === 0 ? (
-                <p>You don't have any coins saved. Please save a coin to add it to your watch list. <Link to="/">Click hero to search coins.</Link></p>
+                <p>You don't have any coins saved. Please save a coin to add it to your watch list. <Link to="/" className="text-yellow-300">Click hero to search coins.</Link></p>
             ) : (
                 <table className="w-full border-collapse text-center">
                     <thead>
